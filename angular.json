@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "knowledges-app-20224169": {
+    "knowledges-app-20191e642": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "knowledges-app-20224169:build:production"
+              "browserTarget": "knowledges-app-20191e642:build:production"
             },
             "development": {
-              "browserTarget": "knowledges-app-20224169:build:development"
+              "browserTarget": "knowledges-app-20191e642:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "knowledges-app-20224169:build"
+            "browserTarget": "knowledges-app-20191e642:build"
           }
         },
         "test": {
